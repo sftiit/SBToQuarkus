@@ -1,0 +1,15 @@
+quarkus:
+    datasource:
+        db-kind: mysql
+        jdbc:
+            url: jdbc:mysql://localhost:3306/test
+        password: NeilarmstronG18$
+        username: root
+    http:
+        port: 8085
+        test-port: 8089
+    smallrye-openapi:
+        path: /swagger
+    swagger-ui:
+        always-include: true
+        path: /swagger-ui.html
