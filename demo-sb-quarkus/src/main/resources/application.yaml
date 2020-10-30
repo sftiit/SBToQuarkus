@@ -3,7 +3,7 @@ quarkus:
         db-kind: mysql
         jdbc:
             url: jdbc:mysql://localhost:3306/test
-        password: NeilarmstronG18$
+        password: NeG18$
         username: root
     http:
         port: 8085
